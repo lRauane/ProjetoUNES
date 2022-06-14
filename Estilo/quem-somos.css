@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    padding: 0; margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./imagens/fundo2.png);
+    padding: 0; border: 0;
+}
+header{
+ height: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ color: #fff;
+}
+header .logo img{
+    margin-bottom: 2px;
+}
+.nav-bar{
+   font-size: 1rem;
+   display: flex;
+   width: 100%;
+   padding: 20px;
+   margin: 15px;
+   justify-content: space-between;
+   max-width: 260px;
+   align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    margin: 20px;
+    border-bottom: 1px solid #383F5D;
+    transition-duration: 0.5s;
+}
+.nav-bar a:hover{
+    color: #383F5D;
+}
+
+main{
+    margin-top: 50px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-width: 300px;
+    max-width: 1200px; 
+    padding: 25px;
+}
+
+main h2{
+color: white;
+text-align: center;
+padding: 10px;
+font-weight: normal;
+font-size: 1.8em;
+background-color: #383F5D;
+}
+
+main p{
+margin: 15px 0px;
+text-align: left;
+text-indent: 30px;
+line-height: 2em;
+font-size: 1em;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+article h2{
+    margin: 40px ;
+}
+article li{
+    line-height: 40px;
+}
+footer{
+    text-align: center;
+    color: #383F5D;
+    margin: 40px;
+}
